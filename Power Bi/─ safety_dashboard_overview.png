@@ -1,0 +1,76 @@
+## Power BI Dashboard – Safety Signal Monitoring
+
+"C:\Users\Nikita\OneDrive\Pictures\Screenshots 1\safety_dashboard_overview.png.png"
+# Power BI Dashboard – Safety Signal Monitoring
+
+This dashboard represents the visualization and monitoring layer of the
+**AI-Assisted Dashboard for Safety Signal Monitoring** project.
+
+The dashboard is designed to provide a high-level overview of drug safety
+patterns and support exploratory safety signal monitoring.
+
+---
+
+## Dashboard Objectives
+
+- Provide a consolidated view of drug safety data
+- Compare safety patterns across prescription types (Rx vs OTC)
+- Highlight availability of adverse effect information
+- Assess pregnancy risk category distribution
+- Support interactive and exploratory analysis
+
+---
+
+## Key Dashboard Components
+
+### KPI Cards
+- Total number of drugs in the dataset
+- Count of prescription (Rx) drugs
+- Count of over-the-counter (OTC) drugs
+
+These KPIs provide immediate context about the dataset composition.
+
+---
+
+### Adverse Effect Availability by Prescription Type
+This clustered column chart compares the number of drug records with reported
+adverse effects across Rx and OTC categories.
+
+Differences between KPI counts and chart values reflect missing or unreported
+adverse effect information, which is common in real-world safety datasets.
+
+---
+
+### Average User Rating by Prescription Type
+This visualization compares average user-reported ratings across prescription
+categories. Ratings are used as a perception-based metric and not as a clinical
+safety indicator.
+
+---
+
+### Pregnancy Risk Category Distribution
+A donut chart visualizes the distribution of drugs across pregnancy risk
+categories, supporting regulatory and safety-focused analysis.
+
+---
+
+## Interactivity
+Slicers are provided for:
+- Prescription Type
+- Pregnancy Category
+
+These filters enable focused and interactive exploration of safety patterns.
+
+---
+
+## AI-Assisted Insights
+AI-assisted tools were used to help summarize observed visual patterns and
+support interpretation of dashboard trends. Final conclusions and safety
+interpretations remain analyst-driven.
+
+---
+
+## Note on Data
+The Power BI dashboard is shared as screenshots due to file size constraints.
+Raw datasets are excluded from the repository due to size and data handling
+considerations.
